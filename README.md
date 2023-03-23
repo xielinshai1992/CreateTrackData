@@ -1,37 +1,22 @@
 # CreateTrackData
 
 #### 介绍
-创建飞行器航迹软件。航迹数据包括本机航迹、目标机ADS-B、TCAS航迹，支持网络发送
+创建飞行器航迹软件。航迹数据包括本机航迹、目标机ADS-B、TCAS航迹，支持网络发送。
+软件采用PyQt5-GUI框架和Python3.6开发。
+软件支持ADS-B的四种应用处理：基本空中交通态势感知（Basic Airborne Situation Awareness，简称：AIRB）、目视间隔进近（Visual Separation on Approach，简称：VSA）、场面态势感知（Surface Situation Awareness，简称：SURF）、高度层变更程序（In-Trail Procedure，简称：ITP）。
 
 #### 软件架构
-软件架构说明
+1.主界面UI adsb_mainForm.py
+2.主函数 create_airportdata_form.py
+3.本机航迹、ADS-B航迹、TCAS航迹数据接口 c_api.py
+4.data_interface_pro.dll 基于ARINC735B协议数据打包数据
+5.辅助工具模块 geography_analysis.py
+6.网页加载 map_a.html、map_surf.html js、css文件夹
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  安装pyqt5三方库后，python运行create_airportdata_form.py
+2.  导入.yaml的本机数据和目标机数据
+3.  点击“开始”按钮，开始仿真航迹数据并向下游UDP传输
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
