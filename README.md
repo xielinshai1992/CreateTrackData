@@ -6,6 +6,7 @@
 软件采用PyQt5-GUI框架和Python3.6开发。
 
 软件支持ADS-B的四种应用处理：
+
 基本空中交通态势感知（Basic Airborne Situation Awareness，简称：AIRB）
 
 目视间隔进近（Visual Separation on Approach，简称：VSA）
