@@ -6,10 +6,13 @@
 软件采用PyQt5-GUI框架和Python3.6开发。
 
 软件支持ADS-B的四种应用处理：
-基本空中交通态势感知（Basic Airborne Situation Awareness，简称：AIRB）、
-目视间隔进近（Visual Separation on Approach，简称：VSA）、
-场面态势感知（Surface Situation Awareness，简称：SURF）、
-高度层变更程序（In-Trail Procedure，简称：ITP）。
+基本空中交通态势感知（Basic Airborne Situation Awareness，简称：AIRB）
+
+目视间隔进近（Visual Separation on Approach，简称：VSA）
+
+场面态势感知（Surface Situation Awareness，简称：SURF）
+
+高度层变更程序（In-Trail Procedure，简称：ITP）
 
 #### 软件架构
 1.主界面UI adsb_mainForm.py
@@ -27,7 +30,9 @@
 
 #### 使用说明
 
-1.  安装pyqt5三方库后，python运行create_airportdata_form.py
-2.  导入.yaml的本机数据和目标机数据
-3.  点击“开始”按钮，开始仿真航迹数据并向下游UDP传输
+1.安装pyqt5三方库后，python运行create_airportdata_form.py
+
+2.导入.yaml的本机数据和目标机数据
+
+3.点击“开始”按钮，开始仿真航迹数据并向下游UDP传输
 
