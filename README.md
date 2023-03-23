@@ -26,7 +26,7 @@
 
 5.辅助工具模块 geography_analysis.py
 
-6.网页加载 map_a.html、map_surf.html js、css文件夹
+6.网页加载 map_a.html、map_surf.html、js、css文件夹
 
 
 #### 使用说明
